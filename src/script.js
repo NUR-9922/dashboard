@@ -1,3 +1,6 @@
+/* The code is adding an event listener to an element with the ID "Hamburger-nav-icon". When that
+element is clicked, the code inside the arrow function will be executed. The code inside the arrow
+function toggles the "sidebar-right-0" class on the element with the ID "sidebar". */
 /* This code is adding an event listener to an element with the ID "Hamburger-nav-icon". When that
 element is clicked, the code inside the arrow function will be executed. */
 document.getElementById("Hamburger-nav-icon").addEventListener("click", () => {
@@ -152,12 +155,11 @@ var pageViewsChart = new Chart(document.getElementById('pageViewsChart').getCont
         },
         options: {
             responsive: true,
+       /* The `maintainAspectRatio: false` option in Chart.js is used to specify whether the chart
+       should maintain its aspect ratio or not. When set to `false`, the chart will not maintain its
+       aspect ratio and will adjust its size to fit the container element. This means that the chart
+       may appear distorted if the container element has a different aspect ratio than the default
+       aspect ratio of the chart. */
             maintainAspectRatio: false,
         }
     });
-
-
-    /* The line `// r` is a comment in JavaScript. It is used to add a comment to the code, providing
-    additional information or explanations. In this case, it appears to be a placeholder or a
-    comment that was not completed or removed. */
-    // r
