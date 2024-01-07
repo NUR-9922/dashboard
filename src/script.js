@@ -157,3 +157,7 @@ var pageViewsChart = new Chart(document.getElementById('pageViewsChart').getCont
     });
 
 
+    /* The line `// r` is a comment in JavaScript. It is used to add a comment to the code, providing
+    additional information or explanations. In this case, it appears to be a placeholder or a
+    comment that was not completed or removed. */
+    // r
